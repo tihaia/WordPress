@@ -1,0 +1,106 @@
+/*
+Theme Name: USM Theme
+Theme URI: http://localhost/wordpress
+Author: Tanya
+Author URI: http://localhost/wordpress
+Description: Simple custom WordPress theme for laboratory work.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: usm-theme
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+  line-height: 1.6;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1100px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.site-header {
+  background: #ed07c3;
+  color: white;
+  padding: 25px 0;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.site-header p {
+  margin: 8px 0 0;
+  color: #d1d5db;
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-content {
+  display: flex;
+  gap: 20px;
+  padding: 30px 0;
+  align-items: flex-start;
+}
+
+.content-area {
+  flex: 3;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.post-item {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.site-footer {
+  background: #ed07c3;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.comments-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
